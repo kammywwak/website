@@ -1,4 +1,4 @@
 ---
 layout: gallery
-title: Art Gallery
+title: Selected Works
 ---
