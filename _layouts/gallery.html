@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<h1>Art Gallery</h1>
+<div class="gallery">
+  {% for image in site.static_files %}
+    {% if image.path contains '_art' and image.path contains '.jpg' %}
+      <a href="{{ image.path | relative_url }}">
+        <img src="{{ image.path | relative_url }}" alt="{{ image.name }}">
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<style>
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  .gallery a img {
+    width: 100%;
+    height: auto;
+  }
+</style>
