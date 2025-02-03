@@ -6,7 +6,7 @@ permalink: /about/
 
 # Hello, I'm Kammy
 
-![Self Portrait](/assets/images/self-portrait.jpg){: .profile-photo}
+![Self Portrait](/assets/images/about-photo.jpg){: .profile-photo}
 
 I'm an artist based in San Francisco, focusing on portraiture and experimental art. My work explores themes of identity, emotion, and human connection through various mediums.
 
