@@ -1,13 +1,10 @@
 ---
 layout: artwork
-title: Self Portrait
+title: Blue (-haired liberal) Period
 date: 2023-01-01
-medium: Digital
+medium: Oil Pastel on Paper
 image: /assets/images/self-portrait.jpg
-description: A digital self-portrait exploring themes of identity and self-reflection. This piece was created during a period of introspection and artistic growth.
-dimensions: Digital Canvas
+description: Blue (-haired liberal) Period is a self-portrait exploring identity and belonging as an Asian migrant in the West. After a decade on the U.S. West Coast, she has finally "earned" the label of a "blue-haired liberal." In this portrait, she tries on blue hair as a way to interrogate the projections imposed on the migrant body and the agency one has in reclaiming or resisting them.
+dimensions: 24" x 18"
 ---
-
-This self-portrait represents a moment of artistic exploration and personal reflection. The piece combines traditional portraiture techniques with digital medium, creating a bridge between classical and contemporary art approaches.
-
-The work focuses on capturing both physical likeness and emotional depth, using light and shadow to convey inner states of being.
+Blue (-haired liberal) Period is a self-portrait exploring identity and belonging as an Asian migrant in the West. After a decade on the U.S. West Coast, she has finally "earned" the label of a "blue-haired liberal." In this portrait, she tries on blue hair as a way to interrogate the projections imposed on the migrant body and the agency one has in reclaiming or resisting them.
