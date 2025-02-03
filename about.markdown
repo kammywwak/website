@@ -4,15 +4,22 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# Hello, I'm Kammy
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+![Self Portrait](/assets/images/self-portrait.jpg){: .profile-photo}
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I'm an artist based in San Francisco, focusing on portraiture and experimental art. My work explores themes of identity, emotion, and human connection through various mediums.
 
+## Get in Touch
 
-[jekyll-organization]: https://github.com/jekyll
+Feel free to reach out for collaborations or inquiries:
+- Email: [{{ site.email }}](mailto:{{ site.email }})
+
+<style>
+.profile-photo {
+    max-width: 300px;
+    border-radius: 4px;
+    margin: 20px 0;
+    display: block;
+}
+</style>
