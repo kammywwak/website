@@ -6,4 +6,3 @@ layout: page
 ---
 
 [SELECTED WORKS](/selected-works/)
-[BLOG](/blog/)
