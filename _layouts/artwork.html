@@ -1,0 +1,76 @@
+---
+layout: default
+---
+
+<article class="artwork">
+  <div class="artwork-image">
+    <img src="{{ page.image }}" alt="{{ page.title }}" />
+  </div>
+  
+  <div class="artwork-details">
+    <h1>{{ page.title }}</h1>
+    
+    <dl class="metadata">
+      <dt>Date:</dt>
+      <dd>{{ page.date | date: "%Y" }}</dd>
+      
+      <dt>Medium:</dt>
+      <dd>{{ page.medium }}</dd>
+      
+      {% if page.dimensions %}
+      <dt>Dimensions:</dt>
+      <dd>{{ page.dimensions }}</dd>
+      {% endif %}
+    </dl>
+
+    <div class="description">
+      {{ content }}
+    </div>
+  </div>
+</article>
+
+<style>
+  .artwork {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+  }
+
+  .artwork-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+
+  .artwork-details {
+    padding: 1rem;
+  }
+
+  .metadata {
+    margin: 2rem 0;
+  }
+
+  .metadata dt {
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+
+  .metadata dd {
+    margin-left: 0;
+    color: #666;
+  }
+
+  .description {
+    line-height: 1.6;
+    margin-top: 2rem;
+  }
+
+  @media (max-width: 768px) {
+    .artwork {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

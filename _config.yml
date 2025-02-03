@@ -56,3 +56,14 @@ include:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Artwork Collection Configuration
+collections:
+  artwork:
+    output: true
+    permalink: /artwork/:title/
+
+# Configure header pages
+header_pages:
+  - about.markdown
+  - selected_works.md

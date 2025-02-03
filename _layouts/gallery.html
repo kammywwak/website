@@ -2,25 +2,38 @@
 layout: default
 ---
 
-<h1>Art Gallery</h1>
 <div class="gallery">
-  {% for image in site.static_files %}
-    {% if image.path contains '_art' and image.path contains '.jpg' %}
-      <a href="{{ image.path | relative_url }}">
-        <img src="{{ image.path | relative_url }}" alt="{{ image.name }}">
+  {% for artwork in site.artwork %}
+    <div class="gallery-item">
+      <a href="{{ artwork.url }}">
+        <img src="{{ artwork.image }}" alt="{{ artwork.title }}">
       </a>
-    {% endif %}
+    </div>
   {% endfor %}
 </div>
 
 <style>
   .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
   }
-  .gallery a img {
+
+  .gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+  }
+
+  .gallery-item img {
     width: 100%;
     height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  .gallery-item:hover img {
+    transform: scale(1.05);
   }
 </style>
