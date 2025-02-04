@@ -6,6 +6,7 @@ medium: Digital
 image: /assets/images/eddy.jpg
 description: A digital self-portrait exploring themes of identity and self-reflection. This piece was created during a period of introspection and artistic growth.
 dimensions: Digital Canvas
+published: false
 ---
 
 This self-portrait represents a moment of artistic exploration and personal reflection. The piece combines traditional portraiture techniques with digital medium, creating a bridge between classical and contemporary art approaches.

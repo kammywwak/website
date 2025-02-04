@@ -1,13 +1,11 @@
 ---
 layout: artwork
 title: Poet
-date: 2023-01-01
-medium: Digital
-image: /assets/images/antony.jpg
-description: A digital self-portrait exploring themes of identity and self-reflection. This piece was created during a period of introspection and artistic growth.
-dimensions: Digital Canvas
+date: 2022-01-01
+medium: Oil Pastel on Paper
+image: /assets/images/Chiu_Kammy_Poet_24 x 18 x 1.5_2022.jpg
+description: Poet presents Antony Fangary, a Coptic-American poet whose gaze, much like his verse, resists the flattening force of Western stereotypes imposed on 'the other.'
+dimensions: 24" x 18"
 ---
 
-This self-portrait represents a moment of artistic exploration and personal reflection. The piece combines traditional portraiture techniques with digital medium, creating a bridge between classical and contemporary art approaches.
-
-The work focuses on capturing both physical likeness and emotional depth, using light and shadow to convey inner states of being.
+*Poet* presents Antony Fangary, a Coptic-American poet whose gaze, much like his verse, resists the flattening force of Western stereotypes imposed on 'the other.'
