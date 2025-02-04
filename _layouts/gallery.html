@@ -3,7 +3,8 @@ layout: default
 ---
 
 <div class="gallery">
-  {% for artwork in site.artwork %}
+  {% assign randomized_artwork = site.artwork | where_exp: "item", "item.published != false" | sample: site.artwork.size %}
+  {% for artwork in randomized_artwork %}
     <div class="gallery-item">
       <a href="{{ artwork.url }}">
         <img src="{{ artwork.image }}" alt="{{ artwork.title }}">
