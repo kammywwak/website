@@ -66,3 +66,4 @@ collections:
 header_pages:
   - about.markdown
   - selected_works.md
+  - contact.md
