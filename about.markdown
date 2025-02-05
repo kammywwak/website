@@ -28,7 +28,6 @@ July 2023 - LA Art Book Fair (via Odd One Out), Los Angeles, CA
 
 [{{ site.email }}](mailto:{{ site.email }})
 
-
 <style>
 .profile-photo {
     max-width: 300px;
