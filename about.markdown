@@ -4,7 +4,6 @@ title: About
 permalink: /about/
 ---
 
-
 ![Self Portrait](/assets/images/about-photo.jpg){: .profile-photo}
 
 Kammy Chiu is an interdisciplinary artist whose practice is rooted in painting. Her work explores the complexities of her accidental immigrant experience—at times grappling with the discomfort of existing and creating at the margins, at others excavating and examining memories of her birthplace, Hong Kong.
