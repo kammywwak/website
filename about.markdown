@@ -10,10 +10,8 @@ permalink: /about/
 
 I'm an artist based in San Francisco, focusing on portraiture and experimental art. My work explores themes of identity, emotion, and human connection through various mediums.
 
-## Get in Touch
+[{{ site.email }}](mailto:{{ site.email }})
 
-Feel free to reach out for collaborations or inquiries:
-- Email: [{{ site.email }}](mailto:{{ site.email }})
 
 <style>
 .profile-photo {
