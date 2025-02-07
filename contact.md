@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-Feel free to reach out to me using the form below:
+For inquiries about artwork, collaborations, or upcoming events, please fill out the form below:
 
 <form action="https://formspree.io/f/xpwqrvng" method="POST">
   <div class="form-group">
